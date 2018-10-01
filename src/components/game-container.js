@@ -9,7 +9,6 @@ export default function GameContainer(props) {
   // TODO: gradient on title
   return (
     <main>
-      <h1>Hot or Cold</h1>
         <GameStatus message={props.message} />
         <form>
           <input type="text"></input>
